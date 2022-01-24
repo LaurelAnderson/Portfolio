@@ -8,7 +8,7 @@ function Navbar() {
       <div className="container">
 
         <NavLink to="/">
-          React Multi-Page Website
+          Laurel Anderson
         </NavLink>
           <div>
             <ul>
@@ -20,6 +20,16 @@ function Navbar() {
               <li>
                 <NavLink to="/about">
                   About
+                </NavLink>
+              </li>
+              <li>
+                <NavLink to="/projects">
+                  Projects
+                </NavLink>
+              </li>
+              <li>
+                <NavLink to="/contact">
+                  Contact Me
                 </NavLink>
               </li>
             </ul>
