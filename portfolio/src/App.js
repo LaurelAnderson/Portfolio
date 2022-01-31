@@ -2,7 +2,7 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-import Navbar from "./components/Navbar";
+import Navigation from "./components/Navigation";
 import Home from "./components/Home";
 import About from "./components/About";
 import Projects from "./components/Projects";
@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <Router>
-        <Navbar />
+        <Navigation />
 
         <Routes>
           <Route path="/" element={<Home />} />
