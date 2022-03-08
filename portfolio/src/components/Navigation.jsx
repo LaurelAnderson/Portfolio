@@ -16,11 +16,6 @@ function Navigation() {
           <div>
             <ul class="navbar-nav">
               <li class="nav-item">
-                <NavLink className="nav-link" to="/">
-                  Home
-                </NavLink>
-              </li>
-              <li class="nav-item">
                 <NavLink className="nav-link" to="/about">
                   About
                 </NavLink>
