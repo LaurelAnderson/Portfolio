@@ -1,8 +1,21 @@
+
 .background {
   background-image: url(img/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100vw;
   height: 100vh;
+}
+
+.content {
+  background-color: pink;
+  padding: 3em;
+  float: center;
+}
+
+.right {
+  background-color: white;
+  padding: 1em;
+  float: right;
+  margin: 2em;
 }

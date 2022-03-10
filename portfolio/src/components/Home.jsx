@@ -6,10 +6,17 @@ function Home() {
     <div className="home">
       <div className="background">
         <div class="container">
-          <h1>Home</h1>
-          <p>
-            this is the home page
-          </p>
+          <div className="content">
+            <h1>Home</h1>
+            <p>
+              this is the home page
+            </p>
+          </div>
+          <div className="right">
+            <p>
+              content content content
+            </p>
+          </div>
         </div>
       </div>
     </div>
