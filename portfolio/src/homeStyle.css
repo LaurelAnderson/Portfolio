@@ -9,13 +9,5 @@
 
 .content {
   background-color: pink;
-  padding: 3em;
-  float: center;
-}
-
-.right {
-  background-color: white;
-  padding: 1em;
-  float: right;
-  margin: 2em;
+  padding: 2rem;
 }
