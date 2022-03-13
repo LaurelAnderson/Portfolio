@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Modal, Button } from "react-bootstrap";
+import { Modal } from "react-bootstrap";
 
 import Test from "../img/test.jpg"
 
@@ -30,6 +30,7 @@ function Projects() {
             <Modal.Body>Hello,you're reading this text in a modal!</Modal.Body>
           </Modal>
         </div>
+        {/* End of component */}
 
       </div>
     </div>
