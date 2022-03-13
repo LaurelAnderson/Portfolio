@@ -1,5 +1,5 @@
 import React from "react";
-import '../homeStyle.css'
+import '../customStyle.css'
 import Headshot from '../img/laurel3bw.jpg'
 
 function About() {
@@ -9,7 +9,7 @@ function About() {
 
         {/* first content */}
         <div className="content">
-          <div class="row">
+          <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2">
             <div class="col">
               <h1>Headline 1</h1>
               <p>
@@ -25,7 +25,7 @@ function About() {
         {/* second content */}
         <div className="content">
           <h1>Headline 2</h1>
-          <div class="row">
+          <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3">
             <div class="col">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

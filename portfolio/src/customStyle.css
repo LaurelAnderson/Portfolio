@@ -11,3 +11,7 @@
   background-color: pink;
   padding: 2rem;
 }
+
+.cardHover:hover {
+  opacity: 0.9;
+}
