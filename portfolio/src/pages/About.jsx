@@ -1,5 +1,4 @@
 import React from "react";
-import '../customStyle.css'
 import Headshot from '../img/laurel3bw.jpg'
 
 function About() {

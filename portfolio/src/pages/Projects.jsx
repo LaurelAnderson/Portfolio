@@ -1,5 +1,4 @@
 import React from "react";
-import '../customStyle.css'
 
 import Card from "../components/Card.jsx"
 import Test from "../img/test.jpg";
