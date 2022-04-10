@@ -23,13 +23,13 @@ $light: #F7F7F7;
 /*********************************************/
 
 .background {
-    background-image: url(.\img\Homepage1.png), url(.\img\Homepage2.png);
-    background-position: center, center;
-    background-size: cover, cover;
-    background-repeat: no-repeat, no-repeat;
-    height: 100vh, 100vh;
-  }
+    background-image: url(.\img\Homepage1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
 
-  .cardHover:hover {
-    opacity: 0.9;
-  }
+.cardHover:hover {
+  opacity: 0.9;
+}
