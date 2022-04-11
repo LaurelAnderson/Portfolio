@@ -15,6 +15,10 @@ $h1-font-size: $font-size-base * 3;
 $body-bg: #F7F7F7;
 $body-color: #141512;
 $light: #F7F7F7; 
+$h1-font-size: $font-size-base * 4; 
+
+// $grid-gutter-width: 3rem; 
+// $container-padding-x: 10rem; 
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 
@@ -22,12 +26,24 @@ $light: #F7F7F7;
 /*          ADDITIONAL STYLING         */
 /*********************************************/
 
-.background {
+.background1 {
     background-image: url(.\img\Homepage1.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+}
+
+.background2 {
+  background-image: url(.\img\Homepage2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.inner-container {
+  padding: 1rem 3rem 1rem 3rem;
 }
 
 .cardHover:hover {

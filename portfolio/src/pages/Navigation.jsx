@@ -15,12 +15,12 @@ function Navigation() {
 
           <div>
             <ul class="navbar-nav">
-              {/* <li class="nav-item">
+              <li class="nav-item">
                 <NavLink className="nav-link" to="/about">
                   About
                 </NavLink>
-              </li> */}
-              {/* <li class="nav-item">
+              </li>
+              <li class="nav-item">
                 <NavLink className="nav-link" to="/projects">
                   Projects
                 </NavLink>
@@ -28,8 +28,8 @@ function Navigation() {
               <li class="nav-item">
                 <NavLink className="nav-link" to="/contact">
                   Contact Me
-                </NavLink>
-              </li> */}
+                </NavLink> 
+              </li>
             </ul>
           </div>
         </div>
