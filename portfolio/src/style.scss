@@ -16,9 +16,8 @@ $body-bg: #F7F7F7;
 $body-color: #141512;
 $light: #F7F7F7; 
 $h1-font-size: $font-size-base * 4; 
-
-// $grid-gutter-width: 3rem; 
-// $container-padding-x: 10rem; 
+$navbar-brand-font-size: $font-size-base * 1.5; 
+$nav-link-font-size: $font-size-base * 1.25;
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 
@@ -43,13 +42,12 @@ $h1-font-size: $font-size-base * 4;
 }
 
 .test1{
-  background-color: red;
+  background-color: rgba(247, 247, 247, 1);
 }
 
 .test2{
   background-color:red;
-
-  
+  opacity: 0.5;
 }
 
 // .box{
