@@ -14,14 +14,13 @@ function Home() {
 
           <div class="row row-cols-1 row-cols-lg-2"> 
             <div className="col">
-              <div className="test1">{/* Empty */}</div>
+              <div>{/* Empty */}</div>
             </div>
             <div className="col">
-              <div className="test1">
+              <div className="test1 shadow">
                 <h2 className="p-4 m-3">
                 I am a creative and ambitious computer scientist, passionate about 
                 problem solving, team collaboration, and professional communication.
-                Thank you for visiting my site!
                 </h2>
               </div>
             </div>
@@ -38,7 +37,7 @@ function Home() {
 
           <h1>Highlights</h1>
           <br></br>
-          <div class="row row-cols-1 row-cols-lg-3">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
             <div class="col">
               <Card imgSrc={Test} cardBody="This is some text within a card body." text="Hello,you're reading this text in a modal!"/>
             </div>

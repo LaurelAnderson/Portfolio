@@ -11279,7 +11279,19 @@ fieldset:disabled .btn {
 }
 
 /*********************************************/
-/*          ADDITIONAL STYLING         */
+/*          STANDARD STYLING         */
+/*********************************************/
+.test1 {
+  background-color: #f7f7f7;
+  border: 3px solid #141512;
+}
+
+.cardHover:hover {
+  opacity: 0.9;
+}
+
+/*********************************************/
+/*          HOMEPAGE STYLING         */
 /*********************************************/
 .background1 {
   background-image: url(.\img\Homepage1.png);
@@ -11295,18 +11307,5 @@ fieldset:disabled .btn {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-}
-
-.test1 {
-  background-color: #f7f7f7;
-}
-
-.test2 {
-  background-color: red;
-  opacity: 0.5;
-}
-
-.cardHover:hover {
-  opacity: 0.9;
 }
 /*# sourceMappingURL=style.css.map */

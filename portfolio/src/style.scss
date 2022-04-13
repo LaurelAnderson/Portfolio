@@ -21,8 +21,22 @@ $nav-link-font-size: $font-size-base * 1.25;
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 
+
 /*********************************************/
-/*          ADDITIONAL STYLING         */
+/*          STANDARD STYLING         */
+/*********************************************/
+
+.test1{
+  background-color: rgba(247, 247, 247, 1);
+  border: 3px solid #141512;
+}
+
+.cardHover:hover {
+  opacity: 0.9;
+}
+
+/*********************************************/
+/*          HOMEPAGE STYLING         */
 /*********************************************/
 
 .background1 {
@@ -39,25 +53,4 @@ $nav-link-font-size: $font-size-base * 1.25;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-}
-
-.test1{
-  background-color: rgba(247, 247, 247, 1);
-}
-
-.test2{
-  background-color:red;
-  opacity: 0.5;
-}
-
-// .box{
-
-//   margin: 4rem;
-//   padding: 6rem;
-//   border: 2px solid salmon;
-
-// }
-
-.cardHover:hover {
-  opacity: 0.9;
 }
