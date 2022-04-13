@@ -11290,8 +11290,12 @@ fieldset:disabled .btn {
   height: 100vh;
 }
 
-.inner-container {
-  padding: 1rem 3rem 1rem 3rem;
+.test1 {
+  background-color: red;
+}
+
+.test2 {
+  background-color: red;
 }
 
 .cardHover:hover {
