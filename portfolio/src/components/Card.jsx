@@ -11,7 +11,7 @@ function Card(props) {
   return (
     <div>
       {/* project card */}
-      <div class="card">
+      <div class="card m-4">
         <div class="card-body">
           {props.cardBody}
         </div>

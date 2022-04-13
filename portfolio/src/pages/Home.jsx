@@ -6,10 +6,7 @@ function Home() {
   return (
     <div className="home">
       <div className="background1">
-        <div class="container px-5">
-
-        <br></br>
-        <br></br>
+        <div class="container p-5">
       
           <h1>Well Hello There, </h1>
 
@@ -38,12 +35,12 @@ function Home() {
       <br></br>
 
       <div className="background2">
-        <div class="container px-5">
+        <div class="container p-5">
           {/* Hightlights */}
 
           <h1>Highlights</h1>
           <br></br>
-          <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3">
+          <div class="row row-cols-1 row-cols-lg-3">
             <div class="col">
               <Card imgSrc={Test} cardBody="This is some text within a card body." text="Hello,you're reading this text in a modal!"/>
             </div>
