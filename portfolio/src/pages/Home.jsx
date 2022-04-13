@@ -12,19 +12,13 @@ function Home() {
 
           <br></br>
 
-          <div class="row row-cols-1 row-cols-lg-2"> 
-            <div className="col">
-              <div>{/* Empty */}</div>
-            </div>
-            <div className="col">
-              <div className="test1 shadow">
-                <h2 className="p-4 m-3">
-                I am a creative and ambitious computer scientist, passionate about 
+              <div className="card shadow float-end w-100 w-md-40">
+                <h2 className="p-4 m-3 ">
+                My name is Laurel Anderson and I'm glad you're here! I am a creative 
+                and ambitious computer scientist, passionate about 
                 problem solving, team collaboration, and professional communication.
                 </h2>
               </div>
-            </div>
-          </div>
           
         </div>
       </div>

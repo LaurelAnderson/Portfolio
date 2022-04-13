@@ -12,6 +12,29 @@ $h1-font-size: $font-size-base * 3;
 /*          CUSTOMIZED DEFAULTS         */
 /*********************************************/
 
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/utilities";
+
+$utilities: map-merge(
+  $utilities,
+  (
+    "width": (
+      property: width,
+      responsive: true,
+      class: w,
+      values: (
+        25: 25%,
+        40: 40%,
+        50: 50%,
+        75: 75%,
+        100: 100%,
+        auto: auto
+      )
+    ),
+  )
+);
+
 $body-bg: #F7F7F7;
 $body-color: #141512;
 $light: #F7F7F7; 
@@ -26,9 +49,10 @@ $nav-link-font-size: $font-size-base * 1.25;
 /*          STANDARD STYLING         */
 /*********************************************/
 
-.test1{
+.card{
   background-color: rgba(247, 247, 247, 1);
-  border: 3px solid #141512;
+  border: 3px solid #141512; 
+  margin-top: 4rem;
 }
 
 .cardHover:hover {
