@@ -37,7 +37,7 @@ $utilities: map-merge(
 
 $body-bg: #F7F7F7;
 $body-color: #141512;
-$light: #F7F7F7; 
+
 $h1-font-size: $font-size-base * 4; 
 $navbar-brand-font-size: $font-size-base * 1.5; 
 $nav-link-font-size: $font-size-base * 1.25;
@@ -52,7 +52,6 @@ $nav-link-font-size: $font-size-base * 1.25;
 .card{
   background-color: rgba(247, 247, 247, 1);
   border: 3px solid #141512; 
-  margin-top: 4rem;
 }
 
 .cardHover:hover {
@@ -69,6 +68,7 @@ $nav-link-font-size: $font-size-base * 1.25;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    
 }
 
 .background2 {
@@ -77,4 +77,13 @@ $nav-link-font-size: $font-size-base * 1.25;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+}
+
+.about-background1 {
+  background-image: url(.\img\Aboutpage1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  
 }

@@ -5,7 +5,7 @@ function Navigation() {
   return (
     <div class="navigation">
 
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-light">
 
         <div class="container">
 
